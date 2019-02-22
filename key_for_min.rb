@@ -11,10 +11,10 @@
 #end
 #smallest_value
 #end
-def key_for_min_value(hash)
+def key_for_min_value(item)
   smallest_value = nil
   other_value = nil
-  hash.each do |key, value|
+  item.each do |key, value|
     if other_value == nil || value < other_value
       other_value = value
       smallest_value = key
