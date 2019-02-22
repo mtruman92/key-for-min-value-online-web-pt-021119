@@ -10,7 +10,7 @@ def key_for_min_value(item)
       smallest_value = key
 end
 end
-#smallest_value
+smallest_value
 end
 #def key_for_min_value(item)
   smallest_value = nil
