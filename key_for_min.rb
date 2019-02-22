@@ -8,9 +8,10 @@
   #  if other_value == nil || value < other_value
    #    other_value = value 
     #   smallest_value = key
-#end
+end
+end
 #smallest_value
-#end
+end
 def key_for_min_value(item)
   smallest_value = nil
   other_value = nil
